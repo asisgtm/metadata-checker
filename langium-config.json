@@ -1,0 +1,15 @@
+{
+    "projectName": "Metadata",
+    "languages": [{
+        "id": "metadata",
+        "grammar": "src/language/metadata.langium",
+        "fileExtensions": [".danam"],
+        "textMate": {
+            "out": "syntaxes/metadata.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "src/syntaxes/metadata.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
